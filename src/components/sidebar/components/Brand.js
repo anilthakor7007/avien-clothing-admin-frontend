@@ -6,6 +6,7 @@ import { Flex, useColorModeValue } from "@chakra-ui/react";
 // Custom components
 import { HorizonLogo } from "components/icons/Icons";
 import { HSeparator } from "components/separator/Separator";
+import avienLogo from "../../../assets/img/auth/avDBLogo.png"
 
 export function SidebarBrand() {
   //   Chakra color mode
@@ -13,8 +14,9 @@ export function SidebarBrand() {
 
   return (
     <Flex align='center' direction='column'>
-      <HorizonLogo h='26px' w='175px' my='32px' color={logoColor} />
+      <img src={avienLogo} alt="Avien Logo" />
       <HSeparator mb='20px' />
+      {/* <h1 >Avien</h1> */}
     </Flex>
   );
 }

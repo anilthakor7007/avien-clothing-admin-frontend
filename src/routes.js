@@ -36,13 +36,13 @@ import Customers from './views/admin/customers';
 import Orders from 'views/admin/orderDetails';
 
 const routes = [
-  {
-    name: 'Main Dashboard',
-    layout: '/admin',
-    path: '/dashboard',
-    icon: <Icon as={MdHome} width="20px" height="20px" color="inherit" />,
-    component: <MainDashboard />,
-  },
+  // {
+  //   name: 'Main Dashboard',
+  //   layout: '/admin',
+  //   path: '/dashboard',
+  //   icon: <Icon as={MdHome} width="20px" height="20px" color="inherit" />,
+  //   component: <MainDashboard />,
+  // },
   {
     name: 'Brand Details',
     layout: '/admin',
@@ -88,13 +88,13 @@ const routes = [
     component: <Products/>,
     secondary: true,
   },
-  {
-    name: 'Data Tables',
-    layout: '/admin',
-    icon: <Icon as={MdBarChart} width="20px" height="20px" color="inherit" />,
-    path: '/data-tables',
-    component: <DataTables />,
-  },
+  // {
+  //   name: 'Data Tables',
+  //   layout: '/admin',
+  //   icon: <Icon as={MdBarChart} width="20px" height="20px" color="inherit" />,
+  //   path: '/data-tables',
+  //   component: <DataTables />,
+  // },
   {
     name: 'Order details',
     layout: '/admin',
@@ -116,13 +116,13 @@ const routes = [
     icon: <Icon as={MdVerifiedUser} width="20px" height="20px" color="inherit" />,
     component: <SignUpCentered />,
   },
-  {
-    name: 'RTL Admin',
-    layout: '/rtl',
-    path: '/rtl-default',
-    icon: <Icon as={MdHome} width="20px" height="20px" color="inherit" />,
-    component: <RTL />,
-  },
+  // {
+  //   name: 'RTL Admin',
+  //   layout: '/rtl',
+  //   path: '/rtl-default',
+  //   icon: <Icon as={MdHome} width="20px" height="20px" color="inherit" />,
+  //   component: <RTL />,
+  // },
   {
     name: 'Admin Profile',
     layout: '/admin',
