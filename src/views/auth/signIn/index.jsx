@@ -60,7 +60,7 @@ function SignIn() {
   useEffect(() => {
     if (token) {
       if (role === 'admin') {
-        navigate('/admin/dashboard');
+        navigate('/admin/brand/list');
       } else {
         toast({
           title: "Access Denied",
@@ -180,6 +180,12 @@ function SignIn() {
               {error && <Text color="red.500">{typeof error === 'string' ? error : error.message}</Text>}
             </FormControl>
           </form>
+
+          <div>
+            <h3>Use this credential to sign in:</h3>
+            <p>Email: anu1@gmail.com</p>
+            <p>Password: anu1234567890</p>
+          </div>
           
         </Flex>
       </Flex>
